@@ -105,7 +105,7 @@ The following manifest describes a single-instance MySQL Deployment. The MySQL c
       ```
 
 2. Verify that a PersistentVolume got dynamically provisioned. Note that it can
-   It can take up to a few minutes for the PVs to be provisioned and bound.
+   take up to a few minutes for the PVs to be provisioned and bound.
 
       ```shell
       kubectl get pvc
